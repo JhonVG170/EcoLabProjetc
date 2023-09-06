@@ -1,0 +1,17 @@
+.bg-blue{
+    background-color: #31CAD5;
+    width: 100%;
+    text-align: left;
+}
+.text-blue{
+    color: #31CAD5;
+}
+.texto-ajuste{
+    width: 80%;
+}
+.bg-azul{
+    background-color: rgb(77, 201, 223);
+}
+.texto-preto{
+    color: black;
+}

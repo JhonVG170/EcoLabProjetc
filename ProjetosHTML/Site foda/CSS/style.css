@@ -1,0 +1,144 @@
+/*Comentário*/ /* */
+
+/*Seletor Universal*/
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+    color: white;
+    border-bottom: 5px white;
+    font-size: 25px;
+    margin: 10px 20px;
+    text-align: center;
+}
+body{
+    background-color: rgb(41, 41, 41);
+}
+.bg{
+    height: 350px;
+    background-color: rgb(207, 29, 83);
+    background-image: url("assets/img/Edinho.png");
+    text-align: center; 
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+}
+.box{
+    width: 50%;
+    border: 5px solid rgb(207, 29, 83);
+    margin: 30px;
+    padding: 10px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.outline{
+    outline: 5px dashed white;
+    width: 50%;
+    margin: 30px;
+    padding: 10px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.text-secondary{
+    color: white;
+}
+.backg-secondary{
+    background-color: rgb(207, 29, 83);
+}
+.texto-justi{
+    text-align: justify;
+}
+.text-center{
+    text-align: center;
+}
+.text-decoration{
+    text-decoration-line: overline underline;
+}
+.text-upper{
+    text-transform: uppercase;
+}
+.text-lower{
+    text-transform: lowercase;
+}
+.text-capitalize{
+    text-transform: capitalize;
+}
+.text-indent{
+    text-indent: 20px;
+}
+.text-letter-spacing{
+    letter-spacing: 2px;
+}
+.text-line-height{
+    line-height: 1.5rem;
+}
+.text-word-spacing{
+    word-spacing: 3px;
+}
+.text-white-spacing{
+    white-space: 5px;
+}
+.text-shadow{
+    text-shadow: 5px 5px 5px black;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.table{
+    border-collapse: collapse;
+}
+.table tr,th,td{
+    border: 2px solid black;
+    color: white;
+    background-color: rgb(207, 29, 83);
+    text-align: center;
+    padding: 5px;
+}
+.form{
+    color: white;
+    border-bottom: 5px white;
+    font-size: 9px;
+    margin: 20px 0px;
+    padding: 3px 5px;
+    text-align: center;
+}
+.form-label{
+    display: block;
+    margin: 3px 0px;
+    padding: 3px 5px;
+    font-size: 1.5em;
+}
+.form-input{
+    width: 40%;
+    height: 10px;
+    border-radius: 1px;
+    font-size: 1.5em;
+    text-align: left;
+    padding: 5px;
+    border: 1px solid white;
+}
+.label-radio{
+    margin: 3px 0;
+    padding: 3px 5px;
+    font-size: 1.5em;
+}
+.input-radio{
+    padding: 5px;
+    font-size: 1.5em;
+}
+.btn{
+    width: 150px;
+    font-size: 1.5em;
+    height: 35px;
+    background-color: #069;
+    border-radius: 5px;
+    color: white;
+}
+.btn:hover{
+    background-color: white;
+    border: 1px solid red;
+    color:#069
+}

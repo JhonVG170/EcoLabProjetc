@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ImTube</title>
+</head>
+<style>
+    *{
+        padding: 0px;
+        margin: 0px;
+    }
+    video{
+        width: 1080;
+        height: 720;
+    }
+    body{
+        background-color: rgb(43, 43, 43);
+    }
+    h1{
+        color: white;
+        text-align: center;
+        margin: 5px;
+    }
+    nav{
+        text-align: center;
+        height: 60px;
+        background-color: rgb(235, 29, 29);
+    }
+    form{
+        color: white;
+        text-align: center;
+        background-color: rgb(207, 29, 83);
+        border: 3px white;
+    }
+</style>
+<body>
+    <h1>ImTube</h1>
+
+    <form action="" method="get">
+
+        <label for="check">Cursos</label><br>
+        <input type="checkbox" name="cursos" value="TI" id="check">TI<br>
+        <input type="checkbox" name="cursos" value="TA" id="check">TA<br>
+        <input type="checkbox" name="cursos" value="TP" id="check">Banana<br><br>
+
+        <label for="sexo">Sexo?</label><br>
+        <input type="radio" name="sexo" value="M" id="sexo">Masculino<br>
+        <input type="radio" name="sexo" value="F" id="sexo">Feminino<br>
+        <input type="radio" name="sexo" value="B" id="sexo">Banana<br><br>
+
+        <label for="cor">Selecione uma cor:</label><br>
+        <input type="color" name="cor" id="cor"><br><br>
+
+        <label for="data">Selecione uma data:</label><br>
+        <input type="date" name="data" id="data"><br><br>
+
+        <label for="datatime_local">Selecione uma Data Time Local:</label><br>
+        <input type="datetime-local" name="data_local" id="datatime_local"><br><br>
+
+        <label for="hora">Selecione uma hora:</label><br>
+        <input type="time" name="hora" id="hora"><br><br>
+
+        <label for="semana">Selecione uma semana:</label><br>
+        <input type="week" name="semana" id="semana"><br><br>
+
+        <label for="mes">Selecione uma mês:</label><br>
+        <input type="month" name="mes" id="mes"><br><br>
+
+        <label for="email">Insira o seu E-mail:</label><br>
+        <input type="email" name="email" id="email"><br><br>
+
+        <label for="arquivo">Insira o seu arquivo:</label><br>
+        <input type="file" name="arquivo" id="arquivo"><br><br>
+
+        <label for="intervalo">Volume</label><br>
+        <input type="range" name="volume" id="intervalo"><br><br>
+
+        <label for="busca">Procurar:</label><br>
+        <input type="search" name="busca" id="busca"><br><br>
+
+        <label for="fone">Telefone:</label><br>
+        <input type="tel" name="fone" id="fone"><br><br>
+
+        <label for="url">Link:</label><br>
+        <input type="url" name="url" id="url"><br><br>
+
+        <label for="busca">Procurar:</label><br>
+        <input type="search" name="busca" id="busca"><br><br>
+
+        <label for="texto">Texto:</label><br>
+        <textarea name="texto" id="texto" cols="30" rows="10">Pimba la pimba</textarea><br><br>
+
+        <label for="lista">Cidades:</label><br>
+        <select name="lista" id="lista">
+            <option value="1">Colinas</option>
+            <option value="2">Palmas</option>
+            <option value="3">Gurupi</option>
+        </select><br><br>
+
+        <input type="hidden" name="id" value="123">                                         
+
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+        <button>Outro enviar</button>
+
+    </form>
+</body>
+</html>

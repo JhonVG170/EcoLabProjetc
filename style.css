@@ -1,0 +1,9 @@
+.verde{
+    margin: 5px;
+    padding: 5px;
+    border: 2px solid black;
+    size: 50%;
+    background: green;
+    color: white;
+    text-align: center;
+}
