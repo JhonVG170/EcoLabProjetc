@@ -11,7 +11,7 @@
     <title>EcoLab</title>
 </head>
 <body>
-    <div class="conteiner box" id="menu">
+    <div class="conteiner box_menu" id="menu">
         <h1>EcoLab</h1>
         <p>protótipo</p>
         <nav>
