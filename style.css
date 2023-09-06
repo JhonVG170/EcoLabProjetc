@@ -1,9 +1,22 @@
-.verde{
-    margin: 5px;
-    padding: 5px;
-    border: 2px solid black;
-    size: 50%;
-    background: green;
+.box_menu{
+    display: block;
+    width: 100%;
+    background-color: green;
     color: white;
     text-align: center;
+    padding: 5px;
+}
+nav li{
+    display: inline;
+}
+nav li a{
+    display: inline-block;
+    text-decoration: none;
+    width: 200px;
+    text-align: center;
+    color: white;
+}
+nav li a:hover{
+    background-color: white;
+    color: black;
 }

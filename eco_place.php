@@ -11,15 +11,25 @@
     <title>EcoLab</title>
 </head>
 <body>
-    <h1 class="verde">Olá, Bem-vindo ao EcoProjeto</h1>
-
+    <div class="conteiner box" id="menu">
+        <h1>EcoLab</h1>
+        <p>protótipo</p>
+        <nav>
+            <li><a href="#1">op1</a></li>
+            <li><a href="#2">op2</a></li>
+            <li><a href="#3">op3</a></li>
+            <li><a href="#4">op4</a></li>
+            <li><a href="#5">op5</a></li>
+        </nav>
+    </div>
     <?php
         $num = 5; 
         for($i = 1; $i <= $num; $i++){
-            echo '<div class="form-check form-switch">';
-            echo '<label class="form-check-label" for="pc'.$i.'">PC-'.$i.'</label>';
-            echo '<input class="form-check-input" type="checkbox" role="switch'.$i.'" name=Pc'.$i.'" id="switch'. $i .'">';
-            echo '</div>';
+            echo '
+            <div class="form-check form-switch">
+                <label class="form-check-label" for="pc'.$i.'">Bancada-'.$i.'</label>
+                <input class="form-check-input" type="checkbox" role="switch'.$i.'" name=Pc'.$i.'" id="switch'. $i .'">
+            </div>';
         }
     ?>
     
